@@ -6,5 +6,8 @@
 <li>Menu Item <?php echo $i; ?></li> 
 <?php } ?>
 </ul> 
+<?php
+echo "this os visual studio"
+?>
 </body>
 </html>

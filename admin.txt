@@ -1,0 +1,189 @@
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        admin.php
+        admin.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git add admin.php
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   admin.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        admin.txt
+
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git commit -m "created a new file"
+[master (root-commit) a282ec4] created a new file
+ Committer: 2014-2-60-040 <2014-2-60-040@cse.ewu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+)
+ create mode 100644 admin.php
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ewuasiful040/industry_visit.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        admin.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git branch Rita
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git branch
+  Rita
+* master
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$ git checkout Rita
+Switched to branch 'Rita'
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git status
+On branch Rita
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        admin.txt
+        rita.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git add admin.php
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git add rita.php
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git status
+On branch Rita
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   rita.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        admin.txt
+
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git commit -m "created a new rita file"
+[Rita 0dae002] created a new rita file
+ Committer: 2014-2-60-040 <2014-2-60-040@cse.ewu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+)
+ create mode 100644 rita.php
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git push -u origin Rita
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 336 bytes | 336.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'Rita' on GitHub by visiting:
+remote:      https://github.com/ewuasiful040/industry_visit/pull/new/Rita
+remote:
+To https://github.com/ewuasiful040/industry_visit.git
+ * [new branch]      Rita -> Rita
+Branch 'Rita' set up to track remote branch 'Rita' from 'origin'.
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git log --oneline
+0dae002 (HEAD -> Rita, origin/Rita) created a new rita file
+a282ec4 (origin/master, master) created a new file
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git diff 0dae002 a282ec4
+diff --git a/rita.php b/rita.php
+deleted file mode 100644
+index dcee3d1..0000000
+--- a/rita.php
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<html>
+-<head></head>
+-<body>
+-       <?php
+-               echo "Hello world"
+-       ?>
+-</body>
+-</html>
+\ No newline at end of file
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (Rita)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+2014-2-60-040@Softlab04 MINGW64 /c/xampp/htdocs/github/industry_visit (master)
+$
